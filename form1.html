@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form1</title>
+</head>
+<body>
+<form>
+	<label for="name">Name :</label>
+	<input type="text" id="name" name="name" maxlength="25" required=""><br><br>
+
+	<label for="email">Email :</label>
+	<input type="email" id="email" name="email" value="test@example.com" required><br><br>
+
+	<label for="password">Password</label>
+	<input type="password" name="password" minlength="6" required><br><br>
+
+	<label for="category">category</label>
+	<select id="category" name="category" required>
+		<option value="student">student</option>
+		<option value="employee">employee</option>
+		<option value="freelancer" selected>freelancer</option>
+	</select><br><br>
+
+	<label for="eventdate">Event date</label>
+	<input type="date" name="eventdate" required><br><br>
+
+	<label for="tickets" >Tickets :</label><br>
+	<input type="radio" name="tickets" required>1 ticket
+	<input type="radio" name="tickets" checked required>2 ticket
+	<input type="radio" name="tickets" required>3 ticket<br><br>
+
+	<label for="onlinepay">Payments</label><br>
+	<input type="checkbox" name="onlinepay" required>online payment<br><br>
+
+	<label for="Notes">Notes :</label><br>
+	<textarea rows="5" cols="20" placeholder="Notes"></textarea><br><br>
+	<input type="submit" name="submit">
+
+</form>
+</body>
+</html>
